@@ -1,0 +1,8 @@
+[32m2024-05-21 14:50:10.825[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18h14m56s786ms279µs300ns).
+[32m2024-05-21 14:50:58.820[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s171ms835µs400ns).
+[32m2024-05-21 16:22:17.839[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m38s700ms516µs600ns).
+[32m2024-05-21 16:22:58.882[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s688ms315µs400ns).
+[32m2024-05-21 16:45:09.348[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m40s286ms683µs900ns).
+[32m2024-05-21 17:00:49.585[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m40s127ms988µs400ns).
+[32m2024-05-21 22:27:41.793[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h15m52s59ms717µs).
+[32m2024-05-21 22:31:44.864[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(517)-127.0.0.1] Application shutdown requested.

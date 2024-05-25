@@ -1,0 +1,33 @@
+
+
+<div *ngIf="userBookings.length > 0; else noBookings">
+  <h2>Your Bookings</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Booking ID</th>
+        <th>Booking Date</th>
+        <th>Email</th>
+        <th>Total Customers</th>
+        <th>Amount</th>
+        <th>Seat No</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let booking of userBookings">
+        <td>{{ booking.bookingId }}</td>
+        <td>{{ booking.bookingDate }}</td>
+        <td>{{ booking.email }}</td>
+        <td>{{ booking.totalcustomer }}</td> <!-- Make sure property name is correct -->
+        <td>{{ booking.amount }}</td>
+        <td>{{ booking.seatNo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #noBookings>
+  <p>No bookings found.</p>
+</ng-template> 
+
+
